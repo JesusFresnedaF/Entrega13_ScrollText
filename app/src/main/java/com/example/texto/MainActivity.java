@@ -25,11 +25,11 @@ import android.widget.EditText;
             @Override
             public void onClick(View v) {
                 if(addComment.getText().equals("Add Comment")){
-                    commentTxt.setEnabled(true);
+                    article.setEnabled(true);
                     addComment.setText("Save Comment");
                 }
                 else if(addComment.getText().equals("Save Comment")){
-                    commentTxt.setEnabled(false);
+                    article.setEnabled(false);
                     addComment.setText("Add Comment");
                 }
             }

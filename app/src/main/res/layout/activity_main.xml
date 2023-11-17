@@ -26,7 +26,7 @@
         android:layout_below="@id/article_heading"
         android:background="@color/colorPrimary"
         android:padding="10dp"
-        android:text="@string/article_subtitle"
+        android:text="@string/article_title"
         android:textAppearance="@android:style/TextAppearance"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,9 +48,9 @@
             android:id="@+id/comment"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:autoLink="web"
-            android:lineSpacingExtra="5sp"
-            android:text=""/>
+            android:text="@string/article_subtitle"
+            android:textAlignment="center"
+            android:gravity="top"/>
 
         <ScrollView
             android:id="@+id/scrollView2"
